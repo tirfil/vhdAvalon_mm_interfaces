@@ -1,0 +1,53 @@
+[*]
+[*] GTKWave Analyzer v3.3.68 (w)1999-2016 BSI
+[*] Tue Feb 07 09:45:38 2017
+[*]
+[dumpfile] "D:\Users\thirion2\Documents\FPGA\AVALONMM\fifo_inter\SIM\wave.ghw"
+[dumpfile_mtime] "Tue Feb 07 09:32:35 2017"
+[dumpfile_size] 46052
+[savefile] "D:\Users\thirion2\Documents\FPGA\AVALONMM\fifo_inter\SIM\wave.gtk.gtkw"
+[timestart] 81000000
+[size] 1920 1018
+[pos] -184 -184
+*-29.116285 2280000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_fifo_inter.
+[treeopen] top.tb_fifo_inter.i_fifo_inter_0.
+[sst_width] 197
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 589
+@28
+top.tb_fifo_inter.running
+top.tb_fifo_inter.nrst
+top.tb_fifo_inter.mclk
+top.tb_fifo_inter.test_full
+top.tb_fifo_inter.test_write
+@24
+#{top.tb_fifo_inter.test_din[31:0]} top.tb_fifo_inter.test_din[31] top.tb_fifo_inter.test_din[30] top.tb_fifo_inter.test_din[29] top.tb_fifo_inter.test_din[28] top.tb_fifo_inter.test_din[27] top.tb_fifo_inter.test_din[26] top.tb_fifo_inter.test_din[25] top.tb_fifo_inter.test_din[24] top.tb_fifo_inter.test_din[23] top.tb_fifo_inter.test_din[22] top.tb_fifo_inter.test_din[21] top.tb_fifo_inter.test_din[20] top.tb_fifo_inter.test_din[19] top.tb_fifo_inter.test_din[18] top.tb_fifo_inter.test_din[17] top.tb_fifo_inter.test_din[16] top.tb_fifo_inter.test_din[15] top.tb_fifo_inter.test_din[14] top.tb_fifo_inter.test_din[13] top.tb_fifo_inter.test_din[12] top.tb_fifo_inter.test_din[11] top.tb_fifo_inter.test_din[10] top.tb_fifo_inter.test_din[9] top.tb_fifo_inter.test_din[8] top.tb_fifo_inter.test_din[7] top.tb_fifo_inter.test_din[6] top.tb_fifo_inter.test_din[5] top.tb_fifo_inter.test_din[4] top.tb_fifo_inter.test_din[3] top.tb_fifo_inter.test_din[2] top.tb_fifo_inter.test_din[1] top.tb_fifo_inter.test_din[0]
+@200
+-
+@28
+top.tb_fifo_inter.fifo_read
+top.tb_fifo_inter.empty
+@24
+#{top.tb_fifo_inter.din[31:0]} top.tb_fifo_inter.din[31] top.tb_fifo_inter.din[30] top.tb_fifo_inter.din[29] top.tb_fifo_inter.din[28] top.tb_fifo_inter.din[27] top.tb_fifo_inter.din[26] top.tb_fifo_inter.din[25] top.tb_fifo_inter.din[24] top.tb_fifo_inter.din[23] top.tb_fifo_inter.din[22] top.tb_fifo_inter.din[21] top.tb_fifo_inter.din[20] top.tb_fifo_inter.din[19] top.tb_fifo_inter.din[18] top.tb_fifo_inter.din[17] top.tb_fifo_inter.din[16] top.tb_fifo_inter.din[15] top.tb_fifo_inter.din[14] top.tb_fifo_inter.din[13] top.tb_fifo_inter.din[12] top.tb_fifo_inter.din[11] top.tb_fifo_inter.din[10] top.tb_fifo_inter.din[9] top.tb_fifo_inter.din[8] top.tb_fifo_inter.din[7] top.tb_fifo_inter.din[6] top.tb_fifo_inter.din[5] top.tb_fifo_inter.din[4] top.tb_fifo_inter.din[3] top.tb_fifo_inter.din[2] top.tb_fifo_inter.din[1] top.tb_fifo_inter.din[0]
+@25
+#{top.tb_fifo_inter.i_fifo_inter_0.reg[31:0]} top.tb_fifo_inter.i_fifo_inter_0.reg[31] top.tb_fifo_inter.i_fifo_inter_0.reg[30] top.tb_fifo_inter.i_fifo_inter_0.reg[29] top.tb_fifo_inter.i_fifo_inter_0.reg[28] top.tb_fifo_inter.i_fifo_inter_0.reg[27] top.tb_fifo_inter.i_fifo_inter_0.reg[26] top.tb_fifo_inter.i_fifo_inter_0.reg[25] top.tb_fifo_inter.i_fifo_inter_0.reg[24] top.tb_fifo_inter.i_fifo_inter_0.reg[23] top.tb_fifo_inter.i_fifo_inter_0.reg[22] top.tb_fifo_inter.i_fifo_inter_0.reg[21] top.tb_fifo_inter.i_fifo_inter_0.reg[20] top.tb_fifo_inter.i_fifo_inter_0.reg[19] top.tb_fifo_inter.i_fifo_inter_0.reg[18] top.tb_fifo_inter.i_fifo_inter_0.reg[17] top.tb_fifo_inter.i_fifo_inter_0.reg[16] top.tb_fifo_inter.i_fifo_inter_0.reg[15] top.tb_fifo_inter.i_fifo_inter_0.reg[14] top.tb_fifo_inter.i_fifo_inter_0.reg[13] top.tb_fifo_inter.i_fifo_inter_0.reg[12] top.tb_fifo_inter.i_fifo_inter_0.reg[11] top.tb_fifo_inter.i_fifo_inter_0.reg[10] top.tb_fifo_inter.i_fifo_inter_0.reg[9] top.tb_fifo_inter.i_fifo_inter_0.reg[8] top.tb_fifo_inter.i_fifo_inter_0.reg[7] top.tb_fifo_inter.i_fifo_inter_0.reg[6] top.tb_fifo_inter.i_fifo_inter_0.reg[5] top.tb_fifo_inter.i_fifo_inter_0.reg[4] top.tb_fifo_inter.i_fifo_inter_0.reg[3] top.tb_fifo_inter.i_fifo_inter_0.reg[2] top.tb_fifo_inter.i_fifo_inter_0.reg[1] top.tb_fifo_inter.i_fifo_inter_0.reg[0]
+@200
+-
+@28
+top.tb_fifo_inter.fifo_write
+top.tb_fifo_inter.i_fifo_inter_0.full
+top.tb_fifo_inter.full_d
+@24
+#{top.tb_fifo_inter.dout[31:0]} top.tb_fifo_inter.dout[31] top.tb_fifo_inter.dout[30] top.tb_fifo_inter.dout[29] top.tb_fifo_inter.dout[28] top.tb_fifo_inter.dout[27] top.tb_fifo_inter.dout[26] top.tb_fifo_inter.dout[25] top.tb_fifo_inter.dout[24] top.tb_fifo_inter.dout[23] top.tb_fifo_inter.dout[22] top.tb_fifo_inter.dout[21] top.tb_fifo_inter.dout[20] top.tb_fifo_inter.dout[19] top.tb_fifo_inter.dout[18] top.tb_fifo_inter.dout[17] top.tb_fifo_inter.dout[16] top.tb_fifo_inter.dout[15] top.tb_fifo_inter.dout[14] top.tb_fifo_inter.dout[13] top.tb_fifo_inter.dout[12] top.tb_fifo_inter.dout[11] top.tb_fifo_inter.dout[10] top.tb_fifo_inter.dout[9] top.tb_fifo_inter.dout[8] top.tb_fifo_inter.dout[7] top.tb_fifo_inter.dout[6] top.tb_fifo_inter.dout[5] top.tb_fifo_inter.dout[4] top.tb_fifo_inter.dout[3] top.tb_fifo_inter.dout[2] top.tb_fifo_inter.dout[1] top.tb_fifo_inter.dout[0]
+@200
+-
+@28
+top.tb_fifo_inter.test_empty
+top.tb_fifo_inter.test_read
+@24
+#{top.tb_fifo_inter.test_dout[31:0]} top.tb_fifo_inter.test_dout[31] top.tb_fifo_inter.test_dout[30] top.tb_fifo_inter.test_dout[29] top.tb_fifo_inter.test_dout[28] top.tb_fifo_inter.test_dout[27] top.tb_fifo_inter.test_dout[26] top.tb_fifo_inter.test_dout[25] top.tb_fifo_inter.test_dout[24] top.tb_fifo_inter.test_dout[23] top.tb_fifo_inter.test_dout[22] top.tb_fifo_inter.test_dout[21] top.tb_fifo_inter.test_dout[20] top.tb_fifo_inter.test_dout[19] top.tb_fifo_inter.test_dout[18] top.tb_fifo_inter.test_dout[17] top.tb_fifo_inter.test_dout[16] top.tb_fifo_inter.test_dout[15] top.tb_fifo_inter.test_dout[14] top.tb_fifo_inter.test_dout[13] top.tb_fifo_inter.test_dout[12] top.tb_fifo_inter.test_dout[11] top.tb_fifo_inter.test_dout[10] top.tb_fifo_inter.test_dout[9] top.tb_fifo_inter.test_dout[8] top.tb_fifo_inter.test_dout[7] top.tb_fifo_inter.test_dout[6] top.tb_fifo_inter.test_dout[5] top.tb_fifo_inter.test_dout[4] top.tb_fifo_inter.test_dout[3] top.tb_fifo_inter.test_dout[2] top.tb_fifo_inter.test_dout[1] top.tb_fifo_inter.test_dout[0]
+[pattern_trace] 1
+[pattern_trace] 0

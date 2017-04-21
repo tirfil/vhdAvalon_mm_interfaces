@@ -1,0 +1,61 @@
+[*]
+[*] GTKWave Analyzer v3.3.68 (w)1999-2016 BSI
+[*] Fri Mar 17 14:52:15 2017
+[*]
+[dumpfile] "D:\Users\thirion2\Documents\FPGA\AVALON_SLAVE\SIM\wave.ghw"
+[dumpfile_mtime] "Fri Mar 17 14:38:24 2017"
+[dumpfile_size] 4174
+[savefile] "D:\Users\thirion2\Documents\FPGA\AVALON_SLAVE\SIM\wave.gtkw"
+[timestart] 0
+[size] 1495 758
+[pos] -1 -1
+*-27.919378 1060000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_avalon_slave.
+[treeopen] top.tb_avalon_slave.i_avalon_slave_0.
+[sst_width] 197
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 345
+@28
+top.tb_avalon_slave.nrst
+@200
+-
+@28
+top.tb_avalon_slave.clk
+@22
+#{top.tb_avalon_slave.avalon_address[15:0]} top.tb_avalon_slave.avalon_address[15] top.tb_avalon_slave.avalon_address[14] top.tb_avalon_slave.avalon_address[13] top.tb_avalon_slave.avalon_address[12] top.tb_avalon_slave.avalon_address[11] top.tb_avalon_slave.avalon_address[10] top.tb_avalon_slave.avalon_address[9] top.tb_avalon_slave.avalon_address[8] top.tb_avalon_slave.avalon_address[7] top.tb_avalon_slave.avalon_address[6] top.tb_avalon_slave.avalon_address[5] top.tb_avalon_slave.avalon_address[4] top.tb_avalon_slave.avalon_address[3] top.tb_avalon_slave.avalon_address[2] top.tb_avalon_slave.avalon_address[1] top.tb_avalon_slave.avalon_address[0]
+#{top.tb_avalon_slave.avalon_byteenable[3:0]} top.tb_avalon_slave.avalon_byteenable[3] top.tb_avalon_slave.avalon_byteenable[2] top.tb_avalon_slave.avalon_byteenable[1] top.tb_avalon_slave.avalon_byteenable[0]
+@200
+-
+@28
+top.tb_avalon_slave.avalon_write
+@22
+#{top.tb_avalon_slave.avalon_writedata[31:0]} top.tb_avalon_slave.avalon_writedata[31] top.tb_avalon_slave.avalon_writedata[30] top.tb_avalon_slave.avalon_writedata[29] top.tb_avalon_slave.avalon_writedata[28] top.tb_avalon_slave.avalon_writedata[27] top.tb_avalon_slave.avalon_writedata[26] top.tb_avalon_slave.avalon_writedata[25] top.tb_avalon_slave.avalon_writedata[24] top.tb_avalon_slave.avalon_writedata[23] top.tb_avalon_slave.avalon_writedata[22] top.tb_avalon_slave.avalon_writedata[21] top.tb_avalon_slave.avalon_writedata[20] top.tb_avalon_slave.avalon_writedata[19] top.tb_avalon_slave.avalon_writedata[18] top.tb_avalon_slave.avalon_writedata[17] top.tb_avalon_slave.avalon_writedata[16] top.tb_avalon_slave.avalon_writedata[15] top.tb_avalon_slave.avalon_writedata[14] top.tb_avalon_slave.avalon_writedata[13] top.tb_avalon_slave.avalon_writedata[12] top.tb_avalon_slave.avalon_writedata[11] top.tb_avalon_slave.avalon_writedata[10] top.tb_avalon_slave.avalon_writedata[9] top.tb_avalon_slave.avalon_writedata[8] top.tb_avalon_slave.avalon_writedata[7] top.tb_avalon_slave.avalon_writedata[6] top.tb_avalon_slave.avalon_writedata[5] top.tb_avalon_slave.avalon_writedata[4] top.tb_avalon_slave.avalon_writedata[3] top.tb_avalon_slave.avalon_writedata[2] top.tb_avalon_slave.avalon_writedata[1] top.tb_avalon_slave.avalon_writedata[0]
+@28
+top.tb_avalon_slave.avalon_waitrequest
+top.tb_avalon_slave.avalon_read
+top.tb_avalon_slave.avalon_readdatavalid
+@22
+#{top.tb_avalon_slave.avalon_readdata[31:0]} top.tb_avalon_slave.avalon_readdata[31] top.tb_avalon_slave.avalon_readdata[30] top.tb_avalon_slave.avalon_readdata[29] top.tb_avalon_slave.avalon_readdata[28] top.tb_avalon_slave.avalon_readdata[27] top.tb_avalon_slave.avalon_readdata[26] top.tb_avalon_slave.avalon_readdata[25] top.tb_avalon_slave.avalon_readdata[24] top.tb_avalon_slave.avalon_readdata[23] top.tb_avalon_slave.avalon_readdata[22] top.tb_avalon_slave.avalon_readdata[21] top.tb_avalon_slave.avalon_readdata[20] top.tb_avalon_slave.avalon_readdata[19] top.tb_avalon_slave.avalon_readdata[18] top.tb_avalon_slave.avalon_readdata[17] top.tb_avalon_slave.avalon_readdata[16] top.tb_avalon_slave.avalon_readdata[15] top.tb_avalon_slave.avalon_readdata[14] top.tb_avalon_slave.avalon_readdata[13] top.tb_avalon_slave.avalon_readdata[12] top.tb_avalon_slave.avalon_readdata[11] top.tb_avalon_slave.avalon_readdata[10] top.tb_avalon_slave.avalon_readdata[9] top.tb_avalon_slave.avalon_readdata[8] top.tb_avalon_slave.avalon_readdata[7] top.tb_avalon_slave.avalon_readdata[6] top.tb_avalon_slave.avalon_readdata[5] top.tb_avalon_slave.avalon_readdata[4] top.tb_avalon_slave.avalon_readdata[3] top.tb_avalon_slave.avalon_readdata[2] top.tb_avalon_slave.avalon_readdata[1] top.tb_avalon_slave.avalon_readdata[0]
+@200
+-
+@22
+#{top.tb_avalon_slave.address[15:0]} top.tb_avalon_slave.address[15] top.tb_avalon_slave.address[14] top.tb_avalon_slave.address[13] top.tb_avalon_slave.address[12] top.tb_avalon_slave.address[11] top.tb_avalon_slave.address[10] top.tb_avalon_slave.address[9] top.tb_avalon_slave.address[8] top.tb_avalon_slave.address[7] top.tb_avalon_slave.address[6] top.tb_avalon_slave.address[5] top.tb_avalon_slave.address[4] top.tb_avalon_slave.address[3] top.tb_avalon_slave.address[2] top.tb_avalon_slave.address[1] top.tb_avalon_slave.address[0]
+#{top.tb_avalon_slave.byteenable[3:0]} top.tb_avalon_slave.byteenable[3] top.tb_avalon_slave.byteenable[2] top.tb_avalon_slave.byteenable[1] top.tb_avalon_slave.byteenable[0]
+@28
+top.tb_avalon_slave.i_avalon_slave_0.w_long
+top.tb_avalon_slave.i_avalon_slave_0.w_short
+@22
+#{top.tb_avalon_slave.d_from_avalon[31:0]} top.tb_avalon_slave.d_from_avalon[31] top.tb_avalon_slave.d_from_avalon[30] top.tb_avalon_slave.d_from_avalon[29] top.tb_avalon_slave.d_from_avalon[28] top.tb_avalon_slave.d_from_avalon[27] top.tb_avalon_slave.d_from_avalon[26] top.tb_avalon_slave.d_from_avalon[25] top.tb_avalon_slave.d_from_avalon[24] top.tb_avalon_slave.d_from_avalon[23] top.tb_avalon_slave.d_from_avalon[22] top.tb_avalon_slave.d_from_avalon[21] top.tb_avalon_slave.d_from_avalon[20] top.tb_avalon_slave.d_from_avalon[19] top.tb_avalon_slave.d_from_avalon[18] top.tb_avalon_slave.d_from_avalon[17] top.tb_avalon_slave.d_from_avalon[16] top.tb_avalon_slave.d_from_avalon[15] top.tb_avalon_slave.d_from_avalon[14] top.tb_avalon_slave.d_from_avalon[13] top.tb_avalon_slave.d_from_avalon[12] top.tb_avalon_slave.d_from_avalon[11] top.tb_avalon_slave.d_from_avalon[10] top.tb_avalon_slave.d_from_avalon[9] top.tb_avalon_slave.d_from_avalon[8] top.tb_avalon_slave.d_from_avalon[7] top.tb_avalon_slave.d_from_avalon[6] top.tb_avalon_slave.d_from_avalon[5] top.tb_avalon_slave.d_from_avalon[4] top.tb_avalon_slave.d_from_avalon[3] top.tb_avalon_slave.d_from_avalon[2] top.tb_avalon_slave.d_from_avalon[1] top.tb_avalon_slave.d_from_avalon[0]
+#{top.tb_avalon_slave.d_to_avalon[31:0]} top.tb_avalon_slave.d_to_avalon[31] top.tb_avalon_slave.d_to_avalon[30] top.tb_avalon_slave.d_to_avalon[29] top.tb_avalon_slave.d_to_avalon[28] top.tb_avalon_slave.d_to_avalon[27] top.tb_avalon_slave.d_to_avalon[26] top.tb_avalon_slave.d_to_avalon[25] top.tb_avalon_slave.d_to_avalon[24] top.tb_avalon_slave.d_to_avalon[23] top.tb_avalon_slave.d_to_avalon[22] top.tb_avalon_slave.d_to_avalon[21] top.tb_avalon_slave.d_to_avalon[20] top.tb_avalon_slave.d_to_avalon[19] top.tb_avalon_slave.d_to_avalon[18] top.tb_avalon_slave.d_to_avalon[17] top.tb_avalon_slave.d_to_avalon[16] top.tb_avalon_slave.d_to_avalon[15] top.tb_avalon_slave.d_to_avalon[14] top.tb_avalon_slave.d_to_avalon[13] top.tb_avalon_slave.d_to_avalon[12] top.tb_avalon_slave.d_to_avalon[11] top.tb_avalon_slave.d_to_avalon[10] top.tb_avalon_slave.d_to_avalon[9] top.tb_avalon_slave.d_to_avalon[8] top.tb_avalon_slave.d_to_avalon[7] top.tb_avalon_slave.d_to_avalon[6] top.tb_avalon_slave.d_to_avalon[5] top.tb_avalon_slave.d_to_avalon[4] top.tb_avalon_slave.d_to_avalon[3] top.tb_avalon_slave.d_to_avalon[2] top.tb_avalon_slave.d_to_avalon[1] top.tb_avalon_slave.d_to_avalon[0]
+@28
+top.tb_avalon_slave.i_avalon_slave_0.r_long
+@29
+top.tb_avalon_slave.i_avalon_slave_0.r_short
+@200
+-
+@28
+#{top.tb_avalon_slave.twait[1:0]} top.tb_avalon_slave.twait[1] top.tb_avalon_slave.twait[0]
+[pattern_trace] 1
+[pattern_trace] 0
