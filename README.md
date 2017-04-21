@@ -1,5 +1,5 @@
 # vhdAvalon_mm_interfaces
-Avalon Memory map bus interfaces (slave, master dma read, master dma write)
+Avalon Memory Map bus interfaces (slave, master dma read, master dma write)
 
 **AVALON_SLAVE:** AVALON MM Slave interface
 
