@@ -56,24 +56,25 @@ begin
 				fifo_empty_i <= '1';
 				wraddr_i <= (others=>'0');
 				rdaddr_i <= (others=>'0');
-			end if;
-			if (FIFO_WRITE='1' and fifo_full_i='0') then
-				wraddr_i <= next_wraddr;
-				if (next_wraddr = rdaddr_i) then
-					if (FIFO_READ='0') then
-						fifo_full_i <= '1';
+			else
+				if (FIFO_WRITE='1' and fifo_full_i='0') then
+					wraddr_i <= next_wraddr;
+					if (next_wraddr = rdaddr_i) then
+						if (FIFO_READ='0') then
+							fifo_full_i <= '1';
+						end if;
 					end if;
+					fifo_empty_i <= '0';
 				end if;
-				fifo_empty_i <= '0';
-			end if;
-			if (FIFO_READ='1' and fifo_empty_i='0') then
-				rdaddr_i <= next_rdaddr;
-				if (next_rdaddr = wraddr_i) then
-					if (FIFO_WRITE='0') then
-						fifo_empty_i <= '1';
+				if (FIFO_READ='1' and fifo_empty_i='0') then
+					rdaddr_i <= next_rdaddr;
+					if (next_rdaddr = wraddr_i) then
+						if (FIFO_WRITE='0') then
+							fifo_empty_i <= '1';
+						end if;
 					end if;
+					fifo_full_i <= '0';
 				end if;
-				fifo_full_i <= '0';
 			end if;
 		end if;
 	end process POTO;

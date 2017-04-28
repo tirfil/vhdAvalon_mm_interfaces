@@ -86,17 +86,27 @@ begin
 			fifo_empty_q <= FIFO_EMPTY;
 			if (ABORT='1') then
 				state <= S_IDLE;
-			end if;
-			if (state = S_IDLE) then
 				IDLE <= '1';
 				AVALON_ADDRESS <= (others=>'1');
 				AVALON_BEGINBURSTTRANSFER <= '0';
 				AVALON_BURSTCOUNT <= (others=>'0');
-				avalon_write_i <= '0';
 				FIFO_CLEARBURST <= '0';
 				internal_address <= (others=>'0');
 				remaining_word <= 0;
+				avalon_write_i <= '0';
 				first_read <= '0';
+				fifo_empty_q <= '1';
+			elsif (state = S_IDLE) then
+				IDLE <= '1';
+				AVALON_ADDRESS <= (others=>'1');
+				AVALON_BEGINBURSTTRANSFER <= '0';
+				AVALON_BURSTCOUNT <= (others=>'0');
+				FIFO_CLEARBURST <= '0';
+				internal_address <= (others=>'0');
+				remaining_word <= 0;
+				avalon_write_i <= '0';
+				first_read <= '0';
+				fifo_empty_q <= '1';
 				if (START = '1') then
 					internal_address <= ADDR;
 					state <= S_BEGINBURST;
